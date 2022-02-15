@@ -68,6 +68,9 @@
 							.css('background-position', $img.css('object-position') ? $img.css('object-position') : 'center');
 
 				});
+	//get in touch
+	
+	
 
 	// Sidebar.
 		var $sidebar = $('#sidebar'),
@@ -101,6 +104,7 @@
 						$sidebar.toggleClass('inactive');
 
 				});
+			
 
 		// Events.
 
@@ -150,7 +154,7 @@
 						event.stopPropagation();
 
 				});
-
+				
 			// Hide panel on body click/tap.
 				$body.on('click touchend', function(event) {
 
